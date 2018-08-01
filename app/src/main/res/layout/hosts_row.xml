@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/hostnameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_alignLeft="@+id/displayNameLayout"
+        android:layout_alignStart="@+id/displayNameLayout"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical"
+        android:paddingTop="10dp"
+        android:text="@string/hostname"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/hostnameLayout"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/host_secure" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/displayNameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hostnameLayout"
+        android:layout_marginStart="105dp"
+        android:gravity="center_vertical"
+        android:paddingBottom="16dp"
+        android:text="@string/display_name"
+        android:textAppearance="?android:textAppearanceListItem"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignEnd="@+id/displayNameLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/displayNameLayout"
+        android:layout_marginTop="15dp"
+        android:background="#E0E0E0" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<com.alexandrius.accordionswipelayout.library.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipe_layout"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    app:foregroundLayout="@layout/hosts_row"
+    app:iconSize="@dimen/icon_size"
+    app:rightItemColors="@array/rightColors"
+    app:rightItemIcons="@array/rightDrawables"
+    app:rightStrings="@array/rightTexts"
+    app:rightTextColors="@array/rightTextColors"
+    app:swipeItemWidth="@dimen/swipe_item_width" />

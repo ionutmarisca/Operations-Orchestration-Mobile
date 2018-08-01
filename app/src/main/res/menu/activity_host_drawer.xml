@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/baseline_dashboard_black_24dp"
+            android:title="Dashboard" />
+
+        <item
+            android:id="@+id/nav_run_explorer"
+            android:icon="@drawable/baseline_table_chart_black_24dp"
+            android:title="Run Explorer" />
+
+        <item
+            android:id="@+id/nav_flow_execution"
+            android:icon="@drawable/baseline_play_circle_outline_black_24dp"
+            android:title="Flow Execution" />
+    </group>
+
+</menu>

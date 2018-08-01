@@ -1,0 +1,23 @@
+<resources>
+
+    <integer-array name="rightColors">
+        <item>@color/swipeUpdate</item>
+        <item>@color/swipeDelete</item>
+    </integer-array>
+
+    <integer-array name="rightDrawables">
+        <item>@drawable/ic_mode_edit_black_24dp</item>
+        <item>@drawable/ic_delete_white_24dp</item>
+    </integer-array>
+
+    <string-array name="rightTexts">
+        <item>@string/update</item>
+        <item>@string/delete</item>
+    </string-array>
+
+    <integer-array name="rightTextColors">
+        <item>@color/colorPrimaryDarkText</item>
+        <item>@color/colorPrimaryText</item>
+    </integer-array>
+
+</resources>
